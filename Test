@@ -1,0 +1,23 @@
+<section id="contact" class="container" style="padding: 60px 0; text-align: center;">
+        <h2>Get In Touch</h2>
+        <p style="margin-bottom: 20px;">Have a question or want to work together?</p>
+        
+        <form action="#" method="POST" style="max-width: 600px; margin: 0 auto; text-align: left;">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px;">Name</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px;">Message</label>
+                <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+            </div>
+            
+            <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer; font-size: 1rem;">Send Message</button>
+        </form>
+    </section>
